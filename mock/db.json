@@ -1,0 +1,171 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "神奇女侠",
+      "uri": "1.jpg",
+      "rating": 60,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 2,
+      "name": "摔跤吧！爸爸",
+      "uri": "2.jpg",
+      "rating": 80,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 3,
+      "name": "神奇女侠",
+      "uri": "1.jpg",
+      "rating": 60,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 4,
+      "name": "摔跤吧！爸爸",
+      "uri": "2.jpg",
+      "rating": 80,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 5,
+      "name": "神奇女侠",
+      "uri": "1.jpg",
+      "rating": 60,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 6,
+      "name": "摔跤吧！爸爸",
+      "uri": "2.jpg",
+      "rating": 80,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 7,
+      "name": "神奇女侠",
+      "uri": "1.jpg",
+      "rating": 60,
+      "type": "爱情动作",
+      "duration": "120:00"
+    },
+    {
+      "id": 8,
+      "name": "摔跤吧！爸爸",
+      "uri": "2.jpg",
+      "rating": 80,
+      "type": "爱情动作",
+      "duration": "120:00"
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "金逸珠江国际影城-广州大学城店",
+      "address": "番禺区大学城GOGO新天地商业广场三层第3A028号"
+    },
+    {
+      "id": 2,
+      "name": "广州金逸国际影城二沙岛店",
+      "address": "广州市越秀区二沙岛烟雨路28号"
+    }
+  ],
+  "rounds": [
+    {
+      "id": 1,
+      "cinema": {
+        "id": 1,
+        "name": "金逸珠江国际影城-广州大学城店",
+        "address": "番禺区大学城GOGO新天地商业广场三层第3A028号"
+      },
+      "movie": {
+        "id": 1,
+        "name": "神奇女侠",
+        "uri": "1.jpg",
+        "rating": 60,
+        "type": "爱情动作",
+        "duration": "120:00"
+      },
+      "price": 36,
+      "place": "1号4k激光厅",
+      "beginTime": 1496719800000,
+      "endTime": 1496727000000,
+      "seatsRows": 6,
+      "seatsColumns": 5,
+      "seats": [
+        [ "empty", "disabled", "available", "available", "empty" ],
+        [ "empty", "disabled", "available", "available", "empty" ],
+        [ "available", "disabled", "available", "available", "disabled" ],
+        [ "available", "available", "disabled", "disabled", "available" ],
+        [ "available", "blocked", "friend", "available", "available" ],
+        [ "available", "available", "available", "available", "available" ]
+      ]
+    }
+  ],
+  "moments": [
+  {
+    "id": {
+      "userId": 1,
+      "roundId": 2,
+      "seatX": 4,
+      "seatY": 8
+    },
+    "movie": "神奇女侠",
+    "cinema": "金逸珠江国际影城-广州大学城店",
+    "price": 30,
+    "place": "2号厅",
+    "beginTime": 1496773800000
+  },
+  {
+    "id": {
+      "userId": 1,
+      "roundId": 4,
+      "seatX": 10,
+      "seatY": 5
+    },
+    "movie": "摔跤吧！爸爸",
+    "cinema": "金逸珠江国际影城-广州大学城店",
+    "price": 30,
+    "place": "7号厅",
+    "beginTime": 1496777400000
+    }
+  ],
+  "users": {"userId":1,"username":"tywang","avatar":null},
+  "round": {
+      "id": 1,
+      "cinema": {
+        "id": 1,
+        "name": "金逸珠江国际影城-广州大学城店",
+        "address": "番禺区大学城GOGO新天地商业广场三层第3A028号"
+      },
+      "movie": {
+        "id": 1,
+        "name": "神奇女侠",
+        "uri": "1.jpg",
+        "rating": 60,
+        "type": "爱情动作",
+        "duration": "120:00"
+      },
+      "price": 36,
+      "place": "1号4k激光厅",
+      "beginTime": 1496719800000,
+      "endTime": 1496727000000,
+      "seatsRows": 6,
+      "seatsColumns": 5,
+      "seats": [
+        [ "empty", "disabled", "available", "available", "empty" ],
+        [ "empty", "disabled", "available", "available", "empty" ],
+        [ "available", "disabled", "available", "available", "disabled" ],
+        [ "available", "available", "disabled", "disabled", "available" ],
+        [ "available", "blocked", "friend", "available", "available" ],
+        [ "available", "available", "available", "available", "available" ]
+      ]
+    }
+}
